@@ -1,0 +1,72 @@
+ID,cms_name,version_range,patch_commit_parent_id,patch_commit_id,cms_url,sink_file,version_header,version_header_sha
+1,Apcupsd,0.3.91_5,504909564079e540689dbdbed3a579483c614275,b492c0ea47aba8dde2f14183e71498ba207594e3,https://github.com/pfsense/FreeBSD-ports,,,Not Found!
+2,AuraCMS,2.3,bc61f1a5b2d77c747651db47bdd0d8db76feae75,4fe9d0d31a32df392f4d6ced8e5c25ed4af19ade,https://github.com/auracms/AuraCMS,,,Not Found!
+3,Bludit,< 3.9.0?,3ab8c4c0a630b86eedd79020c34d1758f0d2726d,d0843a4070c7d7fa596a7eb2130be15383013487,https://github.com/bludit/bludit,"bl-kernel/ajax//upload-images.php ",3.1.0,5ee5fd5
+3,Bludit,< 3.9.0?,3ab8c4c0a630b86eedd79020c34d1758f0d2726d,d0843a4070c7d7fa596a7eb2130be15383013487,https://github.com/bludit/bludit," bl-kernel/ajax//upload-images.php ",3.8.0,60f1b37
+4,Bludit,3.1.0~3.9.2,3dd31b9d11157ab76bc0148ef16eb07897e6ff48,a9640ff6b5f2c0fa770ad7758daf24fec6fbf3f5,https://github.com/bludit/bludit,bl-kernel/ajax/upload-images.php,3.8.0,60f1b37
+4,Bludit,3.1.0~3.9.2,3dd31b9d11157ab76bc0148ef16eb07897e6ff48,a9640ff6b5f2c0fa770ad7758daf24fec6fbf3f5,https://github.com/bludit/bludit,bl-kernel/ajax/upload-images.php,3.1.0,5ee5fd5
+5,Cacti?,< 1.2.0,52fc7e3e4a0e44076329055c109167055f6656da,1f42478506d83d188f68ce5ff41728a7bd159f53,https://github.com/Cacti/cacti,pollers.php,release/1.1.9,f4b7fbc
+5,Cacti?,< 1.2.0,52fc7e3e4a0e44076329055c109167055f6656da,1f42478506d83d188f68ce5ff41728a7bd159f53,https://github.com/Cacti/cacti,pollers.php,release/1.1.0,21a6765
+6,Cacti?,< 1.2.0,f7cb8397855408ae92dbb8bec8fd1dcaf794d143,80c2a88fb2afb93f87703ba4641f9970478c102d,https://github.com/Cacti/cacti,"aggregate_graphs.php ",release/1.1.0,21a6765
+6,Cacti?,< 1.2.0,f7cb8397855408ae92dbb8bec8fd1dcaf794d143,80c2a88fb2afb93f87703ba4641f9970478c102d,https://github.com/Cacti/cacti,aggregate_graphs.php,release/1.1.9,f4b7fbc
+7,CKEditor?,< 4.1.9,4a5f40eb495df48b726d60b72e11238f78111df5,5c7a6b0e10504f08e2f50655541b767e276ce749,https://github.com/xsmo/Image-Uploader-and-Browser-for-CKEditor,"create.php ",4.1.5,b6c6bc7
+7,CKEditor?,< 4.1.9,4a5f40eb495df48b726d60b72e11238f78111df5,5c7a6b0e10504f08e2f50655541b767e276ce749,https://github.com/xsmo/Image-Uploader-and-Browser-for-CKEditor,"create.php ",4.1,67ce6c5
+8,Dolibarr,8.0.2?,74e75a7e2b298948af3b14ed9a7ba467c2f1f7c6,2b088a73c121a52e006c0d76ea4da7ffeb7b4f4a,https://github.com/Dolibarr/dolibarr,htdocs/user/class/user.class.php,8.0.2,85180b1
+9,Dolibarr,6.0.0?,032f54dd1ad48ee532915b5f458c2fb8d71d02e2,33e2179b65331d9d9179b59d746817c5be1fecdb,https://github.com/Dolibarr/dolibarr,htdocs/don/list.php,6.0.0,991a33f
+10,Dolibarr,8.0.2?,fc3fcc5455d9a610b85723e89e8be43a41ad1378,850b939ffd2c7a4443649331b923d5e0da2d6446,https://github.com/Dolibarr/dolibarr,"htdocs/product/class/product.class.php ",8.0.2,85180b1
+11,Dolibarr,< 7.0.2?,fdb3a11f3492ce30bae8380fd29163d6b8812c22,83b762b681c6dfdceb809d26ce95f3667b614739,https://github.com/Dolibarr/dolibarr," htdocs/accountancy/admin/accountmodel.php ",7.0.1,8781526
+11,Dolibarr,< 7.0.2?,fdb3a11f3492ce30bae8380fd29163d6b8812c22,83b762b681c6dfdceb809d26ce95f3667b614739,https://github.com/Dolibarr/dolibarr," htdocs/accountancy/admin/accountmodel.php ",5.0.0,eb1a940
+11,Dolibarr,< 7.0.2?,fdb3a11f3492ce30bae8380fd29163d6b8812c22,83b762b681c6dfdceb809d26ce95f3667b614739,https://github.com/Dolibarr/dolibarr," htdocs/accountancy/admin/accountmodel.php ",6.0.0,991a33f
+12,Dolibarr,< 7.0.2?,6b3e5e208592bb9eaa30bac338976a01e3f79ccd,7ade4e37f24d6859987bb9f6232f604325633fdd,https://github.com/Dolibarr/dolibarr,htdocs/adherents/list.php,5.0.0,eb1a940
+12,Dolibarr,< 7.0.2?,6b3e5e208592bb9eaa30bac338976a01e3f79ccd,7ade4e37f24d6859987bb9f6232f604325633fdd,https://github.com/Dolibarr/dolibarr,,4.0.0,8a5bafc
+12,Dolibarr,< 7.0.2?,6b3e5e208592bb9eaa30bac338976a01e3f79ccd,7ade4e37f24d6859987bb9f6232f604325633fdd,https://github.com/Dolibarr/dolibarr,,3.0.0,8ee98b4
+12,Dolibarr,< 7.0.2?,6b3e5e208592bb9eaa30bac338976a01e3f79ccd,7ade4e37f24d6859987bb9f6232f604325633fdd,https://github.com/Dolibarr/dolibarr,,8.0.2,85180b1
+13,Dolibarr,< 7.0.2?,7ade4e37f24d6859987bb9f6232f604325633fdd,1dc466e1fb687cfe647de4af891720419823ed56,https://github.com/Dolibarr/dolibarr,,8.0.2,85180b1
+14,Dolibarr?,8.0.2,707af49025f7fcceda13dee05ca9893ca051b5bf,0f06e39d23636bd1e4039ac61a743c79725c798b,https://github.com/Dolibarr/dolibarr/,,8.0.2,85180b1
+15,Dolibarr?,8.0.2,0f06e39d23636bd1e4039ac61a743c79725c798b,fc3fcc5455d9a610b85723e89e8be43a41ad1378,https://github.com/Dolibarr/dolibarr/,,8.0.2,85180b1
+16,Dolibarr ERP/CRM,< 5.0.3?,d03d179fa31baa67c32709e5f2d3eadc3906e309,70636cc59ffa1ffbc0ce3dba315d7d9b837aad04,https://github.com/Dolibarr/dolibarr,,8.0.2,85180b1
+17,Dolibarr ERP/CRM,7.0.3?,d9fc1e0b5dacae0a2b4ad6cd986411e9c741d22d,36402c22eef49d60edd73a2f312f8e28fe0bd1cb,https://github.com/Dolibarr/dolibarr,,4.0.0,8a5bafc
+17,Dolibarr ERP/CRM,7.0.3?,d9fc1e0b5dacae0a2b4ad6cd986411e9c741d22d,36402c22eef49d60edd73a2f312f8e28fe0bd1cb,https://github.com/Dolibarr/dolibarr,,5.0.0,eb1a940
+17,Dolibarr ERP/CRM,7.0.3?,d9fc1e0b5dacae0a2b4ad6cd986411e9c741d22d,36402c22eef49d60edd73a2f312f8e28fe0bd1cb,https://github.com/Dolibarr/dolibarr,,5.0.2,880e2d0
+18,Elefant CMS,2.0.3,d4cfbab9b9fda695c14933ad636f00d2e821dc58,afb3346e50b992bcba143660ca2149e563430e05,https://github.com/jbroadway/elefant,,2.0.3,Not Found!
+19,Elefant CMS,< 2.0.7,5f9e2b263ccf94dc45f55106c82748c0b1ad9364,49ba8cc24e9f009ce30d2c2eb9eefeb9be4ce1d0,https://github.com/jbroadway/elefant,,2.0.6,Not Found!
+20,Elefant CMS?,< 2.0.7,49ba8cc24e9f009ce30d2c2eb9eefeb9be4ce1d0,0795ab57c7ffa53ff4af57e229f6d9680fa54a21,https://github.com/jbroadway/elefant,,2.0.6,Not Found!
+21,elFinder?,< 2.1.37,a526df660b2dc98155379abcef1ae33493315ff5,e6351557b86cc10a7651253d2d2aff7f6b918f8e,https://github.com/Studio-42/elFinder,,2.1.3,0b23083
+21,elFinder?,< 2.1.37,a526df660b2dc98155379abcef1ae33493315ff5,e6351557b86cc10a7651253d2d2aff7f6b918f8e,https://github.com/Studio-42/elFinder,,2.1.0,ab48451
+22,elFinder?,< 2.1.36,82b098ffb21851dae96b4b9452ba6bb52461f5ea,157f471d7e48f190f74e66eb5bc73360b5352fd3,https://github.com/Studio-42/elFinder,,2.1.3,0b23083
+22,elFinder?,< 2.1.36,82b098ffb21851dae96b4b9452ba6bb52461f5ea,157f471d7e48f190f74e66eb5bc73360b5352fd3,https://github.com/Studio-42/elFinder,,2.1.0,ab48451
+23,Exponent CMS,< 2.4.0,26cdc39b8e70c31a4727cbb60a10603f2fbdc500,e916702a91a6342bbab483a2be2ba2f11dca3aa3,https://github.com/exponentcms/exponent-cms,,v2.3.0,a86aee9
+23,Exponent CMS,< 2.4.0,26cdc39b8e70c31a4727cbb60a10603f2fbdc500,e916702a91a6342bbab483a2be2ba2f11dca3aa3,https://github.com/exponentcms/exponent-cms,,v2.3.9,e4f3d51
+24,Exponent CMS,2.3.9?,3f06b07755f35b96eff05ed3e3e1df2b907cade1,4ae457ff1bf80e8b61286cd125ca794b25564e86,https://github.com/exponentcms/exponent-cms,,v2.3.9,e4f3d51
+25,flatCore?,1.4.7,e8acaf4e2dad3201e3a5435f96b0b8d5a040f9a4,8d87c51a51b0c7260a72e583a3f83ab375a6b638,https://github.com/flatCore/flatCore-CMS,,1.4.7,5bcb8a8
+26,fusionpbx,4.4.3?,e43ca27ba2d9c0109a6bf198fe2f8d79f63e0611,0f965c89288de449236ad6de4f97960814ce8c84,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+27,fusionpbx,4.4.3?,8adcdff79b95287aef917b9313261a969a47e487,391a23d070f3036d0c7760992f6970b0a76ee4d7,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+28,FusionPBX,up to v4.5.7,83622c4ee1d9dd1913e9fb01ce8f060b46a5768a,284b0a91968f126fd6be0a486a84e065926905ca,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+29,FusionPBX?,4.4.1,44edbfe7a7e256d1b80448026617365a40c92c61,fe504b83db80ebae30c982770f0f0b200b88cbe9,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+30,FusionPBX?,up to v4.5.7,2ce613f1e9fe8ffab7a4cb9d1384444622285335,fc8e4e2d278ce6bffff21b04248d469a59eb8cd4,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+31,FusionPBX?,up to v4.5.7,2b44f9e3e8c6a737b1abad784a2e66d179e1cfff,d6ea02d896b2c57dec491ee3b36ec102639270be,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+32,FusionPBX?,up to v4.5.7,50850bbc53e1ed8ce5c3a0ab1354a6bbbd0a23a8,cd4632b46c62855f7e1c1c93d20ffd64edcb476e,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+33,FusionPBX?,up to v4.5.7,cc820b2eb12a3b7070afdcb7f977f70a1d49ce49,ccdb27536d3549b5c0c317e3665fff231631ec77,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+34,FusionPBX?,up to v4.5.7,913ad234cf145a55e5f2faaab08d776d83c1699b,cc820b2eb12a3b7070afdcb7f977f70a1d49ce49,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+35,FusionPBX?,up to v4.5.7,d0714d439e208a3d0d5551954b1ea7ae0eb02ab9,c9f87dc16def2135930ebbfd667651cc3f6de2ff,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+36,FusionPBX?,up to v4.5.7,d3679bbeface57a21f6623cbc193b04a7fc0a885,c48a160af53352ad1a43518b7d0faab16b8dfbcc,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+37,FusionPBX?,up to v4.5.7,80f2ce087ab1343f1ff3bf8a058eed9b5027eb8c,bcc75d63aa5b721f699a2b416425943ad7707825,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+38,FusionPBX?,4.4.1,fe504b83db80ebae30c982770f0f0b200b88cbe9,b584973e73a4d25be623c9748dd9817f69422ecc,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+39,FusionPBX?,4.4.1,9e837fadecdd5199819a949b5b1bd84b19f716f2,aea1abaeb12f69dc22967395c528fb2434e316c1,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+40,FusionPBX?,up to v4.5.7,bcc75d63aa5b721f699a2b416425943ad7707825,a76d9637e31a70060ecc38786246a8b1c9178322,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+41,FusionPBX?,up to v4.5.7,fc8e4e2d278ce6bffff21b04248d469a59eb8cd4,83622c4ee1d9dd1913e9fb01ce8f060b46a5768a,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+42,FusionPBX?,up to v4.5.7,ccdb27536d3549b5c0c317e3665fff231631ec77,80f2ce087ab1343f1ff3bf8a058eed9b5027eb8c,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+43,FusionPBX?,up to v4.5.7,cd4632b46c62855f7e1c1c93d20ffd64edcb476e,021ff8f8e51cd1254d19e88e7aedc4b795067f8d,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+44,FusionPBX?,up to v4.5.7,1f162cd95fa1da353d3bc747f31477d31a6471d3,d3679bbeface57a21f6623cbc193b04a7fc0a885,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+45,FusionPBX?,up to v4.5.7,63da47f86e324922ce42836e522e4443c20de5ff,913ad234cf145a55e5f2faaab08d776d83c1699b,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+46,FusionPBX?,4.4.1,b584973e73a4d25be623c9748dd9817f69422ecc,9e837fadecdd5199819a949b5b1bd84b19f716f2,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+47,FusionPBX?,4.4.1,c9ebd1a0156d642c7f17d7d73c41050e21d44cd2,44edbfe7a7e256d1b80448026617365a40c92c61,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+48,FusionPBX?,up to v4.5.7,618547f3141c4d3dc9a21c8e4fd63769aecbf3ca,11f2dd2254dbeb1c41bf19b8c38e8fa9bc948efb,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+49,FusionPBX?,up to v4.5.7,021ff8f8e51cd1254d19e88e7aedc4b795067f8d,7fec1014ff0d08e36be6a3f7664edb3a9df7b4ac,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+50,FusionPBX?,up to v4.5.7,0199f3756b7cb1799b2dcc39ccf179f720b09dee,83123e314a2e4c2dd0815446f89bcad97278d98d,https://github.com/fusionpbx/fusionpbx,,4.4.1,5a48f7e
+51,gburton,2.3.3.4 and earlier,a321ba9d5def15a9edbd4220ba166317ad19e9ed,e4d90eccd7d9072ebe78da4c38fb048bfe31c902,https://github.com/gburton/oscommerce2,,v2.3.4,329d51a
+51,gburton,2.3.3.4 and earlier,a321ba9d5def15a9edbd4220ba166317ad19e9ed,e4d90eccd7d9072ebe78da4c38fb048bfe31c902,https://github.com/gburton/oscommerce2,,v2.3,6ce0827
+52,GetSimpleCMS,?3.3.15,4c4c12d17f50e02f5f8778808daa35855a2db74c,764abc9162fd244ddd387ee52058ec6bf31cfc09,https://github.com/GetSimpleCMS/GetSimpleCMS,,,Not Found!
+53,Gila,< 1.11.4,3c8c5bee1875c2532f5f78d2ee70d96a11d3bf23,9fa8ab20792800e9cfb7ed3dcba431f0c3c355cb,https://github.com/GilaCMS/gila,,1.11.11,5efa0b8
+54,Gila,1.11.8,a8b986405550bc856d2f8208bb577850db4b88c3,afbbaae9634b14abda398404e31faa74dcceaaf8,https://github.com/GilaCMS/gila,,1.11.6,df5ae26
+55,GLPI?,9.2.1,a47b59079d8f4c55c195861d405a0df07a62b60b,4efc5cf52a7c2df6a82399ea4c804238da2d33ab,https://github.com/glpi-project/glpi,,9.2.1,3a7c596
