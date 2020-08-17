@@ -6,6 +6,6 @@ SLEEP_TIME_MIN = 10
 SLEEP_TIME_MAX = 15
 
 GIT_DIFF_APPLY_CMD = "git diff {p_c_id} {c_id} {f} > 1.patch && git reset --hard {v} &&  git apply --reject 1.patch"
-GIT_APPLY_RES = r"D:\python_box\GitApplyAutoAnalyzer\data\res"
+GIT_APPLY_RES_DIR = r"D:\python_box\GitApplyAutoAnalyzer\data\res"
 
 DATASET_GITFILE_DIR = r"D:\php_box\safe_patch_git_apply_check_2"

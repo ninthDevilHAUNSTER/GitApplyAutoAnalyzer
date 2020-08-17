@@ -35,6 +35,7 @@ def find_patch_commit_parent(wd, patch_commit_id, cms_url):
 def input_version_header(cms_url, single_df):
     os.chdir(r"D:\php_box\safe_patch_git_apply_check_2")
     file_name = cms_url.split('/')[-1]
+    print(file_name)
     result_df = single_df
     flag = True
     if os.path.exists(file_name) and os.path.isdir(file_name):
@@ -78,9 +79,7 @@ def input_version_header(cms_url, single_df):
     return result_df
 
 
-def version_mannual_input():
-    # wd = webdriver.Firefox()
-    df = pd.read_csv('../data/data6_updating.csv')
+def version_mannual_input(df):
     result_df = None
     for i in range(0, df.__len__()):
         single_df = df.loc[i:i]
@@ -91,7 +90,7 @@ def version_mannual_input():
             result_df = pd.concat(
                 [result_df, input_version_header(cms_url, single_df)], axis=0)
     os.chdir(r"D:\python_box\GitApplyAutoAnalyzer\base")
-    result_df.to_csv('data6_updating.csv')
+    return result_df
 
 
 def get_fast_command(patch_commit_parent_id, patch_commit_id, sink_file, version_header):
@@ -112,15 +111,20 @@ def get_fast_command(patch_commit_parent_id, patch_commit_id, sink_file, version
         p_c_id=patch_commit_parent_id, c_id=patch_commit_id, f="", v=version_header
     )
 
+
 from subprocess import *
+
 
 def get_git_apply_res(cve_id, patch_commit_id, cms_url, fast_command, version_header):
     if version_header.__str__() == "nan": return
+    time.sleep(SLEEP_TIME_MIN / 2)
+    cve_id = cve_id.replace("/", "_")
+    version_header = version_header.replace("/", "_")
 
     os.chdir(DATASET_GITFILE_DIR)
     file_name = cms_url.split('/')[-1]
     if os.path.exists(file_name) and os.path.isdir(file_name):
-        res_dir_path = os.path.join(GIT_APPLY_RES,
+        res_dir_path = os.path.join(GIT_APPLY_RES_DIR,
                                     "{cve_id}-{patch_commit_id}".format(cve_id=cve_id, patch_commit_id=patch_commit_id))
         if not os.path.exists(res_dir_path): os.mkdir(res_dir_path)
         res_file_path = os.path.join(res_dir_path, "res_{}.txt".format(version_header))
@@ -136,10 +140,41 @@ def get_git_apply_res(cve_id, patch_commit_id, cms_url, fast_command, version_he
     os.chdir(r"D:\python_box\PHPSinkPointAnalyzer\tools")
 
 
-if __name__ == '__main__':
-    df = pd.read_csv('../data/data6_updating.csv')
+from base.git_apply_concat_result import concat_result
+from base.git_apply_multiversion_concat import multiversion_concat
+
+
+def fix():
+    df = pd.read_csv('../data/data10.csv')
+    # print(df.to_dict())
+    df['patch_commit_id'] = df['commit_url'].apply(
+        lambda x: x.split('/')[-1]
+    )
+    df['cms_url'] = df.apply(
+        lambda x: get_cms_url(x['commit_url']), axis=1
+    )
+    df['patch_commit_parent_id'] = df.apply(
+        lambda x: get_patch_commit_id(x['patch_commit_id']), axis=1
+    )
+    df = version_mannual_input(df)
+    df['fast_command'] = df.apply(
+        lambda x: get_fast_command(x['patch_commit_parent_id'], x['patch_commit_id'], x['sink_file'],
+                                   x['version_header']), axis=1
+    )
+    # df.to_csv('data7_redo_updating.csv')
     df.apply(
         lambda x: get_git_apply_res(x['cve_id'], x['patch_commit_id'], x['cms_url'], x['fast_command'],
                                     x['version_header']), axis=1
     )
+    df = concat_result(df)
+    df = multiversion_concat(df)
+    df.to_csv(r'D:\python_box\GitApplyAutoAnalyzer\base\data8_redo_updating.csv')
 
+
+if __name__ == '__main__':
+    # df = pd.read_csv('../data/data6_updating.csv')
+    # df.apply(
+    #     lambda x: get_git_apply_res(x['cve_id'], x['patch_commit_id'], x['cms_url'], x['fast_command'],
+    #                                 x['version_header']), axis=1
+    # )
+    fix()
